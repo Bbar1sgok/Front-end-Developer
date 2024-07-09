@@ -1,0 +1,159 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+/* NAVBAR */
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+.navbar ul{
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li a, .logo a{
+
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bolder;
+    padding: 6px;
+    transition: 0.5s;
+
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+.linkler{
+
+    display: flex;
+
+}
+.navbar ul li a:hover, .logo a :hover{
+
+    background-color: aliceblue;
+    font-size: x-large;
+    color: black;
+
+}
+
+/* NAVBAR-2 */
+
+.navbar-2{
+
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+}
+
+.navbar-2 .element{
+
+    display: flex;
+    align-items: center;
+    background-color: darksalmon;
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius: 15px;
+
+}
+
+.element{
+
+    margin: 1%;
+
+}
+
+.navbar-2 img{
+
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+.element a{
+
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    transition: 0.7s;
+
+}
+
+.element a:hover{
+
+    border-bottom: 3px solid blue;
+    font-size: x-large;
+
+}
+
+/* FOOTER  */
+
+.footer{
+
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    background-color: azure;
+    border-top: 3px solid #ccc;
+
+}
+
+.footer ul{
+
+    list-style: none;
+    display: flex;
+
+}
+
+.footer a{
+
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.5s;
+
+}
+
+.footer a:hover{
+
+    font-size: larger;
+
+}
+.footer ul li{
+
+    padding: 1rem;
+
+}
+
+
+

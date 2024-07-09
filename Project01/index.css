@@ -1,0 +1,96 @@
+body{
+
+    background-image: url(images/backgroundColor.jpg);
+}
+
+/* Teknoloji Haberleri */
+.cards{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-teknoloji{
+
+    width: 15rem;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 3px;
+    transition: 0.5s ease-in-out;
+
+}
+.card-teknoloji:hover{
+
+    transform: scale(1.1);
+
+}
+
+.card-teknoloji img{
+
+    width: 100%;
+    height: 200px;
+
+
+}
+
+.teknoloji{
+
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+
+}
+
+.card-img{
+
+    position: relative;
+
+}
+
+.card-img span{
+
+    position: absolute;
+    left: 0%;
+    transition: 0.5s;
+
+}
+
+.baslik-teknoloji{
+
+    border-left: 10px solid blue;
+    margin-left: 28rem;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+span:hover{
+
+    padding-left: 15px;
+
+}
+
+/* Yazılım Haberleri */
+
+.yazılım{
+
+    background-color: rgb(0, 255, 149);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+
+}
+
+.baslik-yazilim{
+
+    border-left: 10px solid rgb(0, 255, 149);
+    margin-left: 28rem;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+
+
