@@ -30,5 +30,4 @@ let saat = () =>{
     
 }
 
-
 setInterval(saat,1000);
