@@ -1,15 +1,3 @@
-// HEr anahtara bir tane değer atayabilirsin
-
-// SESSİON STORAGE
-
-// sessionStorage.setItem("İsim","Bayram Barış gök");
-// sessionStorage.setItem("Agam","Yiğit Erbay");
-
-// LOCAL STORAGE // silinmez
-
-//localStorage.setItem("İsim","Bayram Barış gök");
-
-
 let add = document.querySelector(".add");
 let delete_item = document.querySelector(".delete");
 let clear_item = document.querySelector(".clear");
