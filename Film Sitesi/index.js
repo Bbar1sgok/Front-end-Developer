@@ -8,6 +8,7 @@ arrows.forEach((arrow, index) => {
     const imageItem = movieLists[index].querySelectorAll("img").length;
 
     arrow.addEventListener("click", function () {
+        
         if (imageItem - (4 + clickCounter) + (4 - widthRatio) >= 0) {
             clickCounter++;
             let currentTransform = movieLists[index].computedStyleMap().get("transform")[0].x.value;
@@ -16,6 +17,7 @@ arrows.forEach((arrow, index) => {
             movieLists[index].style.transform = "translateX(0)";
             clickCounter = 0; // Reset clickCounter when resetting the transform
         }
+        
     });
 });
 
